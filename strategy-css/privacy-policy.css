@@ -12,6 +12,7 @@ main h2,
 main h3,
 main h4 {
  color: var(--color-gray-main-800); 
+ font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
 }
 
 main p,
