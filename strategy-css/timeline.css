@@ -81,6 +81,10 @@
 /* Responsive Design */
 
 @media (max-width: 62rem) {
+  #timeline {
+    margin-top: 8rem;
+  }
+
   .right-shift {
     padding-left: 2.5rem;
   }

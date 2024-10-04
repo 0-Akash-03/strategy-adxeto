@@ -46,7 +46,7 @@
 
 @media (max-width: 62rem) {
   .hero-section {
-    margin-top: 8rem;
+    margin-top: 14rem;
   }
 
   .hero-heading {
@@ -67,20 +67,19 @@
   }
 }
 
-@media (max-width: 54rem) {
-  .hero-heading {
-    font-size: 3rem;
-    line-height: 3rem;
-  }
-}
-
 @media (max-width: 48rem) {
+  .hero-section {
+    margin-top: 10rem;
+  }
+
   .hero-width {
     text-align: left;
     width: 80%;
   }
 
   .hero-heading {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
     margin-bottom: 0;
   }
 
@@ -97,13 +96,8 @@
 }
 
 @media (max-width: 38.2rem) {
-  .hero-heading {
-    line-height: 2.7rem;
-    font-size: 2.7rem;
-  }
-
   .hero-description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5rem;
   }
 }
@@ -111,10 +105,5 @@
 @media (max-width: 33rem) {
   .hero-width {
     width: 87%;
-  }
-
-  .hero-heading {
-    line-height: 2.5rem;
-    font-size: 2.5rem;
   }
 }
