@@ -46,6 +46,7 @@
 .page-link {
   text-align: right;
   padding-right: 2rem;
+  margin-bottom: 0.7rem;
 }
 
 .footer-link {
@@ -71,6 +72,11 @@
 @media (max-width: 38rem) {
   .grid-footer {
     grid-template-columns: 1fr;
+  }
+
+  .service-link,
+  .page-link {
+    margin-bottom: 0;
   }
 
   .service-link,
