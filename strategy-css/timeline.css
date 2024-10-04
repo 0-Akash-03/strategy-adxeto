@@ -1,0 +1,96 @@
+#timeline {
+  max-width: 68rem;
+  margin: 5rem auto;
+}
+
+#timeline ul li {
+  list-style: none;
+}
+
+.timeline-heading {
+  color: var(--color-gray-main-800);
+  font-size: 2.5rem;
+
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+.grid-timeline-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: left;
+  grid-row-gap: 2rem;
+}
+
+.timeline-content {
+  text-align: left;
+}
+
+.grid-timeline-content {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  margin-left: 1rem;
+  grid-column-gap: 4.5rem;
+
+  max-width: 31rem;
+}
+
+.steps {
+  padding: 1px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background-color: var(--color-main-500);
+  color: var(--color-gray-100);
+  text-align: center;
+
+  border-radius: 6px;
+  margin-top: 2px;
+  box-shadow: 1px 0 8px rgb(241, 177, 177);
+}
+
+.texts-heading {
+  font-size: 1.2rem;
+  color: var(--color-gray-main-800);
+  text-align: left;
+
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-paragraph {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+  color: var(--color-gray-des-600);
+  text-align: left;
+
+  margin: 1rem 0 0 0;
+}
+
+.goal-text {
+  color: var(--color-main-500);
+}
+
+.right-shift {
+  padding-left: 28rem;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 62rem) {
+  .right-shift {
+    padding-left: 2.5rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .grid-timeline-content {
+    padding: 0;
+    padding-right: 1rem;
+    grid-column-gap: 2rem;
+    margin-left: 0;
+  }
+}
