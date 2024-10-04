@@ -1,0 +1,19 @@
+#booking-page-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
+  line-height: 4rem;
+  color: var(--color-gray-main-800);
+
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+  padding: 0 2rem;
+}
+
+
+@media (max-width: 35rem) {
+  #booking-page-heading {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
