@@ -37,3 +37,17 @@
 .client-x-logo {
     width: 2.5rem;
 }
+
+
+@media (max-width: 68rem) {
+    .clients-flex {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 43rem) {
+    .clients-flex {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+  }
